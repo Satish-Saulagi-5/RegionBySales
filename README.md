@@ -35,5 +35,11 @@ JOIN salesorder USING(custId)
 JOIN orderdetail o USING(orderId) 
 GROUP BY c.country;
 
+## Project Files  
+
+- `SalesDashboard.sql` → MySQL query used for data extraction and preparation  
+- `SalesDashboard.png` → Power BI dashboard screenshot (see preview below)  
+
 ## Dashboard Preview  
 See `SalesDashboard.png` in this repository for the Power BI dashboard screenshot.
+
